@@ -1,0 +1,8 @@
+MSYS-1.0.12 Build:2012-07-05 14:56
+Exception: STATUS_ACCESS_VIOLATION at eip=00000000
+eax=00020019 ebx=77A4E230 ecx=0028FA5C edx=0028FA34 esi=0028FA6C edi=0028FB14
+ebp=0028FA0C esp=0028F9B8 program=us
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+End of stack trace
