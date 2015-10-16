@@ -12,4 +12,4 @@ io.on('connection', function(socket){
   });
 });
 
-http.listen(process.Environment.PORT);
+http.listen(process.env.PORT);
