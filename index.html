@@ -23,7 +23,7 @@
     <script>
       var socket = io();
       $('form').submit(function(){
-        socket.emit('chat message', $('#m').val());
+        socket.emit('chat message', process.env.PORT);
         $('#m').val('');
         return false;
       });
